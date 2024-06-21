@@ -1,0 +1,195 @@
+body {
+
+    background-image: url(wallpaperStarWars.jpg);
+    background-color: black;
+
+}
+
+
+.lista_starwars{
+
+    display:flex;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:1rem;
+
+
+
+}
+
+
+.cajabotones{
+
+    margin-left:1rem;
+}
+
+
+
+.boton1{
+   background-color:black;
+   color:white;
+   margin-left:22rem;
+  
+   font-size:20px;
+   font-family:times-new-roman;
+   font-weight: bolder;
+  width:100px;
+height:60px;
+
+transition-duration:0.5s;
+border-style: none;
+}
+
+
+
+.boton1:hover{
+    background-color:white;
+    color:black;
+    margin-left:22rem;
+   
+    font-size:20px;
+    font-family:times-new-roman;
+    font-weight: bolder;
+   width:100px;
+ height:60px;
+ 
+ transition-duration:0.5s;
+ border-style: none;
+ }
+ 
+
+.boton2{
+
+ background-color:black;
+ color:white;
+ margin-left:4rem;
+
+font-size:20px;
+ font-family:times-new-roman;
+ font-weight: bolder;
+width:100px;
+height:60px;
+transition-duration:0.5s;
+border-style: none;
+}
+
+
+.boton2:hover{
+
+    background-color: white;
+    color:black;
+    margin-left:4rem;
+   
+   font-size:20px;
+    font-family:times-new-roman;
+    font-weight: bolder;
+   width:100px;
+   height:60px;
+   transition-duration:0.5s;
+   border-style: none;
+   }
+
+   .boton3{
+
+   background-color:black;
+   color:white;
+   margin-left:4rem;
+
+ font-size:20px;
+   font-family:times-new-roman;
+   font-weight: bolder;
+width:100px;
+height:60px;
+transition-duration:0.5s;
+border-style: none;
+   }
+
+   .boton3:hover{
+
+    background-color:white;
+    color:black;
+    margin-left:4rem;
+ 
+  font-size:20px;
+    font-family:times-new-roman;
+    font-weight: bolder;
+ width:100px;
+ height:60px;
+ transition-duration:0.5s;
+ border-style: none;
+    } 
+.boton4{
+
+    background-color:black;
+    color:white;
+    margin-left:4rem;
+ 
+ 
+  font-size:20px;
+    font-family:times-new-roman;
+    font-weight: bolder;
+ width:100px;
+ height:60px;
+ transition-duration:0.5s;
+ border-style: none;
+}
+
+
+.boton4:hover{
+
+  background-color:white;
+  color: black ;
+  margin-left:4rem;
+  font-size:20px;
+  font-family:times-new-roman;
+  font-weight: bolder;
+ width:100px;
+ height:60px;
+ border-style: none;
+}
+
+
+.listas{
+
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.listacompleta{
+background-color:gray;
+color:black;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+font-size:1rem;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+  width:16rem;
+  text-align: center;
+  transition-duration:0.5s;
+}
+
+
+
+.listacompleta:hover{
+    background-color:black;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    font-weight: bold;
+      padding: 10px;
+      margin: 5px 0;
+      border-radius: 4px;
+      width:16rem;
+      text-align: center;
+      transition-duration:0.5s;
+      font-size:1rem;
+    }
+
+    
